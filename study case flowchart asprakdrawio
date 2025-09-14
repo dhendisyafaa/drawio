@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.2.1">
   <diagram name="Page-1" id="74bP8RJHpH9MLwdLVSSh">
-    <mxGraphModel dx="706" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2823" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,8 +144,16 @@
         <mxCell id="CGSNtP8mTF_xjP1ow56j-41" value="jumlahPenumpang &amp;lt; kapasitasBus" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1341" y="450" width="161" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="CGSNtP8mTF_xjP1ow56j-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CGSNtP8mTF_xjP1ow56j-43" target="CGSNtP8mTF_xjP1ow56j-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="490" />
+              <mxPoint x="1780" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CGSNtP8mTF_xjP1ow56j-43" value="Silakan masuk" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1585" y="470" width="120" height="40" as="geometry" />
+          <mxGeometry x="1600" y="470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CGSNtP8mTF_xjP1ow56j-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="CGSNtP8mTF_xjP1ow56j-47" target="CGSNtP8mTF_xjP1ow56j-34" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -153,14 +161,30 @@
         <mxCell id="CGSNtP8mTF_xjP1ow56j-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="CGSNtP8mTF_xjP1ow56j-46" target="CGSNtP8mTF_xjP1ow56j-47" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CGSNtP8mTF_xjP1ow56j-46" value="Maaf, bus sudah penuh" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="730" width="182" height="40" as="geometry" />
+        <mxCell id="CGSNtP8mTF_xjP1ow56j-46" value="Penumpang melebihi kapasitas!" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1311.5" y="730" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CGSNtP8mTF_xjP1ow56j-47" value="Terima kasih sudah bertanya" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1330" y="810" width="182" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CGSNtP8mTF_xjP1ow56j-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CGSNtP8mTF_xjP1ow56j-48" target="CGSNtP8mTF_xjP1ow56j-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CGSNtP8mTF_xjP1ow56j-56" value="YA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CGSNtP8mTF_xjP1ow56j-54">
+          <mxGeometry x="-0.09" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGSNtP8mTF_xjP1ow56j-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CGSNtP8mTF_xjP1ow56j-48" target="CGSNtP8mTF_xjP1ow56j-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CGSNtP8mTF_xjP1ow56j-48" value="jumlahPenumpang == kapasitasBus" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1341" y="580" width="161" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CGSNtP8mTF_xjP1ow56j-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CGSNtP8mTF_xjP1ow56j-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="635" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CGSNtP8mTF_xjP1ow56j-52" value="Bus sudah penuh, tunggu bus berikutnya!" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1550" y="615" width="190" height="40" as="geometry" />
